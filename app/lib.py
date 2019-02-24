@@ -7,9 +7,8 @@ def petrol_consumption_in_litre_per_100_km (petrol_filling_in_litre, driving_on_
     :param driving_on_this_petrol:
     :return:
     """
-    result = petrol_filling_in_litre / driving_on_this_petrol * 100
-    return result
-
+    data = petrol_filling_in_litre / driving_on_this_petrol * 100
+    return data
 def max_distance_on_this_petrol (petrol_volume, petrol_consumption_in_litre_per_100_km):
     """
     >>> max_distance_on_this_petrol(10, 5)
